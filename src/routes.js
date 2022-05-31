@@ -40,6 +40,7 @@ const Dropdowns = React.lazy(() =>
 );
 
 //Forms
+const NewForm = React.lazy(() => import("./views/forms/new-form/NewForm"));
 const ChecksRadios = React.lazy(() =>
   import("./views/forms/checks-radios/ChecksRadios")
 );
@@ -109,6 +110,7 @@ const routes = [
   { path: "/forms", name: "Forms", element: FormControl, exact: true },
   { path: "/forms/form-control", name: "Form Control", element: FormControl },
   { path: "/forms/select", name: "Select", element: Select },
+  { path: "/forms/new-form", name: "New Form", element: NewForm },
   {
     path: "/forms/checks-radios",
     name: "Checks & Radios",

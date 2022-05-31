@@ -154,7 +154,7 @@ const _nav = [
       {
         component: CNavItem,
         name: "New Form",
-        to: "/forms/NewForm",
+        to: "/forms/new-form",
       },
       {
         component: CNavItem,
