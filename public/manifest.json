@@ -1,15 +1,12 @@
 {
-  "short_name": "CoreUI-React",
-  "name": "CoreUI-React sample",
+  "name": "your-app-name",
+  "short_name": "your-app-name",
   "icons": [
-    {
-      "src": "./assets/img/favicon.png",
-      "sizes": "100x100",
-      "type": "image/png"
-    }
+ 
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "background_color": "#f0f2f5",
+  "theme_color": "#96f2d7"
 }
